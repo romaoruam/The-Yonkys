@@ -1,0 +1,249 @@
+/* colores
+.color1 { #b3b3b3 };
+.color2 { #c6c6c6 };
+.color3 { #d9d9d9 };
+.color4 { #ececec };
+.color5 { #ffffff }; */
+
+/* reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* mirar video pseudoclases 01:34min (Ahi lo explican Box Sizing)*/
+    box-sizing: border-box;
+}
+
+/* Tipografias */
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Workbench&display=swap');
+
+
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #d9d9d9;
+    padding: 10px 20px;
+    /* Ajusta el espaciado según sea necesario */
+}
+
+/* Estilo para el Nav de la pagina*/
+nav li {
+    display: inline-block;
+    /* Hace que los enlaces se muestren en línea */
+    list-style-type: none;
+    /* Quita las viñetas */
+}
+
+/*Estilo del footer */
+footer {
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+footer h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+/* Estilo para h1 */
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: auto;
+    font-style: auto;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    text-align: center;
+    background-color: #b3b3b3;
+    border-radius: 50px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+
+/* Estilos del menú */
+.navbar {
+    display: flex;
+    text-align: center;
+    font-family: 'Six Caps', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+   flex-direction: column;
+    background-color: #ececec!important;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-left: 50px; */
+    color: #333;
+    /* Centra horizontalmente el elemento */
+}
+
+
+/* index main*/
+.Portada-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Ajusta el margen superior según sea necesario */
+}
+
+
+.redes-y-canales-logos {
+    display: flex;
+    /* Mostrar los logos en línea */
+    justify-content: space-around;
+    /* Espaciado uniforme entre los logos */
+    align-items: center;
+    /* Centrar verticalmente los logos */
+}
+
+.redes-y-canales-logos img {
+    width: 50px;
+    /* Establecer el ancho deseado para los logos */
+    height: auto;
+    /* Mantener la proporción de aspecto */
+    margin: 0 10px;
+    /* Espacio entre los logos */
+    background-color: white;
+}
+
+#Imagen-Biografia01,
+#Imagen-Biografia02 {
+    max-width: 50%;
+    /* Establece el ancho máximo al 100% del contenedor padre */
+    height: auto;
+    /* Mantiene la proporción de aspecto */
+    display: block;
+    /* Hace que la imagen sea un bloque para centrarla horizontalmente */
+    margin: auto;
+    /* Centra la imagen horizontalmente */
+
+}
+
+/* Estilos para el formulario */
+.Contrataciones {
+    font-family: 'Inter', sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.Contrataciones h1 {
+    font-family: 'Six Caps', sans-serif;
+    text-align: center;
+
+}
+
+.fondocontrataciones {
+    background-image: url('../Resources/img/fondo-contrataciones.jpg');
+    /* Especifica la ruta de la imagen que deseas utilizar como fondo */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el área del elemento */
+    background-position: center;
+    /* Centra la imagen en el elemento */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    padding: 20px;
+    /* Ajusta el relleno según sea necesario */
+}
+/* Formulario */
+label,
+input,
+textarea {
+    font-family: 'Tauri', sans-serif;
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 16px);
+}
+
+input[type="submit"] {
+    background-color: #101110d5;
+    /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo Discografia */
+.Discografia {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye las listas de reproducción de manera uniforme */
+}
+
+.playlist {
+    width: 45%;
+    /* Establece el ancho de cada lista de reproducción */
+    margin: 10px;
+    /* Añade un pequeño margen entre las listas de reproducción */
+}
+
+h2 {
+    text-align: center;
+    /* Centra el texto dentro de cada lista de reproducción */
+    flex: 1;
+    /* Hace que los títulos ocupen el mismo espacio */
+}
+
+/* Estilo de integrantes e imagenes */
+
+.Integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.integrante {
+    width: 45%;
+    min-width: 200px;
+    /* Establece un ancho mínimo */
+    margin-bottom: 20px;
+    /* Ajusta el margen inferior entre los integrantes */
+}
+
+.integrante img {
+    width: 100%;
+    /* Establece un ancho del 100% para llenar el contenedor */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block;
+    margin: 0 auto;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+/* Aca tengo que hacer las Medias Querrys */
+/* Responsive - Mobile Last => Max-width => De Mayor a menor */
+
+/* Mobile */
