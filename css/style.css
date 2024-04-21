@@ -127,7 +127,7 @@ p {
 /* Estilos para el formulario */
 .Contrataciones {
     font-family: 'Inter', sans-serif;
-    max-width: 250px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 50px;
     border: 1px solid #ccc;
@@ -189,7 +189,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #b3b3b3;
 }
 
 /* Estilo Discografia */
