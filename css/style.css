@@ -20,6 +20,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Workbench&display=swap');
 
 
+
 /* Estilos para el cuerpo de la página */
 body {
     background-color: #d9d9d9;
@@ -51,15 +52,12 @@ footer h4 {
 
 /* Estilo para h1 */
 h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: auto;
-    font-style: auto;
-    font-variation-settings:
-        "BLED" 0,
-        "SCAN" 0;
+    font-family: 'Six Caps', Impact;
     text-align: center;
     background-color: #b3b3b3;
     border-radius: 50px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agregar sombra */
+   
 }
 
 p {
@@ -71,7 +69,7 @@ p {
 .navbar {
     display: flex;
     text-align: center;
-    font-family: 'Six Caps', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Six Caps', Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
    flex-direction: column;
     background-color: #ececec!important;
@@ -214,34 +212,44 @@ h2 {
     /* Hace que los títulos ocupen el mismo espacio */
 }
 
-/* Estilo de integrantes e imagenes */
+/* Estilo de integrantes e imagenes + GRID */
 
 .Integrantes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual ancho */
+    gap: 20px; /* Espacio entre las celdas */
+    
 }
 
 .integrante {
-    width: 45%;
-    min-width: 200px;
-    /* Establece un ancho mínimo */
-    margin-bottom: 20px;
-    /* Ajusta el margen inferior entre los integrantes */
+    border: 1px solid #ccc; /* Borde para visualizar las celdas */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 50px; /* Corrección en la unidad de medida */
 }
 
+/* Estilos para las imágenes */
 .integrante img {
-    width: 100%;
-    /* Establece un ancho del 100% para llenar el contenedor */
-    height: auto;
-    /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-    display: block;
-    margin: 0 auto;
+    max-width: 80%; /* Ajustar la imagen al ancho del contenedor */
+    border-radius: 50%; /* Bordes redondeados para imágenes circulares */
 }
 
-.descripcion {
-    text-align: center;
+.integrante h4 {
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif !important; /* Aquí se corrige la sintaxis */
+    font-style: normal;
 }
+
+.integrante p {
+    font-family: "Bebas Neue", sans-serif ;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+        font-weight: bold; /* Hacer el texto negrita */
+
+}
+
 
 /* Aca tengo que hacer las Medias Querrys */
 /* Responsive - Mobile Last => Max-width => De Mayor a menor */
