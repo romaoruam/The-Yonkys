@@ -23,7 +23,7 @@
 
 /* Estilos para el cuerpo de la página */
 body {
-    background-color: #d9d9d9;
+    /* background-color: #d9d9d9; */
     background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-papel-blanco_23-2148171245.jpg?t=st=1713757777~exp=1713761377~hmac=b6d525daf301bbdfd040dce7d017278fde3fd27a107c47bcfeaeb1ce316816f7&w=740);
     background-size: cover; /* Replicar la imagen para cubrir toda la pantalla */
     padding: 10px 20px;
@@ -255,6 +255,7 @@ h2 {
     /* Sombra */
     border-radius: 50px;
     /* Corrección en la unidad de medida */
+    background-color: #d9d9d9;
 }
 
 /* Estilos para las imágenes */
