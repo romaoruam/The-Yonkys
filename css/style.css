@@ -39,7 +39,8 @@ nav li {
 /*Estilo del footer */
 footer {
     background-color: #ececec;
-    border-radius: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 footer h4 {
@@ -74,13 +75,22 @@ p {
     font-size: 25px;
    flex-direction: column;
     background-color: #ececec!important;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     /* margin-left: 50px; */
     color: #333;
     /* Centra horizontalmente el elemento */
+
+}
+.bg-body-tertiary{
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); 
+
+
 }
 
+main{
+    margin-bottom: 50px;
+}
 
 /* index main*/
 .Portada-video {
