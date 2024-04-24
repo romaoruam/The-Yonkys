@@ -298,21 +298,15 @@ h2 {
 
 /* Mobile */
 @media (max-width: 375px) and (max-height: 428px) {
-
     .Integrantes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* Dos columnas con igual ancho */
-        /* Dos columnas con igual ancho */
         gap: 20px;
-        /* Espacio entre las celdas */
-
     }
 
     h4,
     p {
         font-size: 14px;
-        /* Reducción del tamaño de fuente para dispositivos móviles */
     }
 
     .Discografia {
@@ -322,32 +316,43 @@ h2 {
 
     .playlist {
         width: 100%;
-        /* Ajustar el ancho al 100% del contenedor */
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) and (max-height: 1000px) {
+    .Integrantes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    h4,
+    p {
+        font-size: 16px;
+    }
+
+    .Discografia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .playlist {
+        width: 100%;
     }
 }
 
 /* Mobile2 */
 @media (max-width: 2460px) and (max-height: 1080px) {
-
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: var(--bs-navbar-nav-link-padding-x);
-        padding-left: var(--bs-navbar-nav-link-padding-x);
-
     .Integrantes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* Dos columnas con igual ancho */
-        /* Dos columnas con igual ancho */
         gap: 40px;
-        /* Espacio entre las celdas */
-
     }
 
-    h4, 
+    h4,
     p {
         font-size: 50px;
-        /* Reducción del tamaño de fuente para dispositivos móviles */
     }
 
     .Discografia {
@@ -360,45 +365,5 @@ h2 {
 
     .playlist {
         width: 50%;
-        
-        /* Ajustar el ancho al 100% del contenedor */
     }
-}
-
-
-
-
-
-
-
-
-
-/* Tablet */
-@media (max-width: 768px) and (max-height: 1000px) {
-
-    .Integrantes {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        /* Dos columnas con igual ancho */
-        gap: 20px;
-        /* Espacio entre las celdas */
-
-    }
-
-    h4,
-    p {
-        font-size: 16px;
-        /* Tamaño de fuente similar al estilo general para tabletas */
-    }
-
-    .Discografia {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .playlist {
-        width: 100%;
-        /* Ajustar el ancho al 100% del contenedor */
-    
-
 }
