@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "name": "proyecto---con-sass",
+  "description": "1. Abrir la consola en esta carpeta de backup o nueva con ctrl+ñ\r     a. npm install nodemon node-sass\r     b. npm init // Metralleta de enter (11 enters)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
