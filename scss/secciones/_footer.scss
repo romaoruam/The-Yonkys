@@ -1,0 +1,42 @@
+/*Estilo del footer */
+footer {
+    background-color:$colorfondofooter;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Sombra */
+    opacity: 0.6;
+    /* Opacidad del footer */
+    padding: 1px 1px;
+    margin: 0 auto;
+    max-width: 900px;
+    /* Establecer un ancho máximo */
+
+    .redes-y-canales-logos {
+        display: flex;
+        /* Mostrar los logos en línea */
+        justify-content: space-around;
+        /* Espaciado uniforme entre los logos */
+        align-items: center;
+        /* Centrar verticalmente los logos */
+    
+    }
+    
+    img {
+        width: 35px;
+        /* Establecer el ancho deseado para los logos */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin: 0 10px;
+        /* Espacio entre los logos */
+        transition: opacity 0.3s;
+        /* Agregamos una transición suave */
+        opacity: 0.6;
+        /* Inicialmente establecemos la opacidad */
+    }
+    
+     img:hover {
+        opacity: 1;
+        /* Al pasar el cursor, los logos vuelven a ser completamente opacos */
+    }
+    
+}
