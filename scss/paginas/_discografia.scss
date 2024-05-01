@@ -1,0 +1,13 @@
+/* Estilo Discografia */
+.Discografia {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye las listas de reproducción de manera uniforme */
+}
+
+.playlist {
+    width: 45%;
+    /* Establece el ancho de cada lista de reproducción */
+    margin: 10px;
+    /* Añade un pequeño margen entre las listas de reproducción */
+}

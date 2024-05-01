@@ -34,3 +34,19 @@ h6 {
 p {
     font-family:$fuentep;
 }
+
+
+
+h2 {
+    text-align: center;
+    /* Centra el texto dentro de cada lista de reproducción */
+    flex: 1;
+    /* Hace que los títulos ocupen el mismo espacio */
+}
+
+h4 {
+    font-weight: 200;
+    font-family:$fuenteh4 !important;
+    /* Aquí se corrige la sintaxis */
+    font-style: normal;
+}

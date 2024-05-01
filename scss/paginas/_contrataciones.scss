@@ -1,0 +1,61 @@
+/* Estilos para el formulario */
+.Contrataciones {
+    
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.fondocontrataciones {
+    background-image: url('../Resources/img/fondo-contrataciones.jpg');
+    /* Especifica la ruta de la imagen que deseas utilizar como fondo */
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el área del elemento */
+    background-position: center;
+    /* Centra la imagen en el elemento */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    padding: 20px;
+    /* Ajusta el relleno según sea necesario */
+}
+
+/* Formulario */
+label,
+input,
+textarea {
+    font-family: $fuenteh6 !important;
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 16px);
+}
+
+input[type="submit"] {
+    background-color: #101110d5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color:$colorfondoh1;
+}

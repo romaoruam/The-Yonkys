@@ -1,0 +1,41 @@
+/* Estilo de integrantes e imagenes + GRID */
+
+.Integrantes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Dos columnas con igual ancho */
+    gap: 20px;
+    /* Espacio entre las celdas */
+}
+
+.integrante {
+    border: 1px solid #ccc;
+    /* Borde para visualizar las celdas */
+    padding: 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrar el contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    border-radius: 50px;
+    /* Corrección en la unidad de medida */
+    background-color: $colorfondointegrantes;
+}
+
+/* Estilos para las imágenes */
+.integrante img {
+    max-width: 80%;
+    /* Ajustar la imagen al ancho del contenedor */
+    border-radius: 50%;
+    /* Bordes redondeados para imágenes circulares */
+}
+
+ h4 {
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif !important;
+    /* Aquí se corrige la sintaxis */
+    font-style: normal;
+}
+
+
+
