@@ -1,0 +1,28 @@
+/* Estilos para el cuerpo de la página */
+body {
+    /* background-color: #d9d9d9; */
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-papel-blanco_23-2148171245.jpg?t=st=1713757777~exp=1713761377~hmac=b6d525daf301bbdfd040dce7d017278fde3fd27a107c47bcfeaeb1ce316816f7&w=740);
+    background-size: cover;
+    /* Replicar la imagen para cubrir toda la pantalla */
+    padding: 10px 20px;
+    /* Ajusta el espaciado según sea necesario */
+
+}
+main {
+    margin-bottom: 50px;
+}
+
+/* Estilo para h1 */
+h1 {
+    font-family: $fuenteh1;
+    text-align: center;
+    background-color:$colorfondoh1;
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Agregar sombra */
+}
+
+p {
+    font-family:$fuentep;
+}

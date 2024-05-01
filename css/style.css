@@ -1,6 +1,57 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Workbench&display=swap");
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   /* mirar video pseudoclases 01:34min (Ahi lo explican Box Sizing)*/
   box-sizing: border-box; }
+
+/* Tipografias */
+/* colores
+
+
+.color3 { #d9d9d9 };
+.color4 { #ececec };
+.color5 { #ffffff }; */
+/* Estilos para el cuerpo de la página */
+body {
+  /* background-color: #d9d9d9; */
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-papel-blanco_23-2148171245.jpg?t=st=1713757777~exp=1713761377~hmac=b6d525daf301bbdfd040dce7d017278fde3fd27a107c47bcfeaeb1ce316816f7&w=740);
+  background-size: cover;
+  /* Replicar la imagen para cubrir toda la pantalla */
+  padding: 10px 20px;
+  /* Ajusta el espaciado según sea necesario */ }
+
+main {
+  margin-bottom: 50px; }
+
+/* Estilo para h1 */
+h1 {
+  font-family: "Six Caps", Impact;
+  text-align: center;
+  background-color: #b3b3b3;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* Agregar sombra */ }
+
+p {
+  font-family: "Bebas Neue", sans-serif; }
+
+/* Estilos del menú */
+.navbar {
+  display: flex;
+  text-align: center;
+  font-family: "Six Caps", Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+  background-color: #c6c6c6 !important;
+  border-radius: 20px;
+  padding: 10px;
+  /* margin-left: 50px; */
+  color: #333;
+  /* Centra horizontalmente el elemento */ }
+  .navbar .bg-body-tertiary {
+    box-shadow: 0 10px 500px rgba(0, 0, 0, 0.1); }

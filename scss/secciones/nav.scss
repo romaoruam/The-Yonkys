@@ -1,0 +1,22 @@
+/* Estilos del menú */
+.navbar {
+    display: flex;
+    text-align: center;
+    font-family: $fuentemenu;
+    font-size: 25px;
+    flex-direction: column;
+    background-color: $colorfondonav !important;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-left: 50px; */
+    color: #333;
+    /* Centra horizontalmente el elemento */
+   
+    .bg-body-tertiary {
+        box-shadow: 0 10px 500px rgba(0, 0, 0, 0.1);
+    
+    
+    }
+
+
+}
