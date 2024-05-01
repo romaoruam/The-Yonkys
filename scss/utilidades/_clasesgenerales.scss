@@ -18,10 +18,18 @@ h1 {
     text-align: center;
     background-color:$colorfondoh1;
     border-radius: 50px;
-
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     /* Agregar sombra */
 }
+
+h6 {
+    font-family: $fuenteh6;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
 
 p {
     font-family:$fuentep;

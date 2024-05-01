@@ -1,25 +1,5 @@
 
 
-main {
-    margin-bottom: 50px;
-}
-
-/* Estilo para h1 */
-h1 {
-    font-family: 'Six Caps', Impact;
-    text-align: center;
-    background-color: #b3b3b3;
-    border-radius: 50px;
-
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    /* Agregar sombra */
-
-}
-
-p {
-    font-family: sans-serif;
-}
-
 /*Estilo del footer */
 footer {
     background-color: #ececec;
