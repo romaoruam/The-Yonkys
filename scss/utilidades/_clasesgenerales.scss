@@ -8,6 +8,7 @@ body {
     /* Ajusta el espaciado según sea necesario */
 
 }
+
 main {
     margin-bottom: 50px;
 }
@@ -16,7 +17,7 @@ main {
 h1 {
     font-family: $fuenteh1;
     text-align: center;
-    background-color:$colorfondoh1;
+    background-color: $colorfondoh1;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     /* Agregar sombra */
@@ -32,7 +33,7 @@ h6 {
 
 
 p {
-    font-family:$fuentep;
+    font-family: $fuentep;
 }
 
 
@@ -46,7 +47,9 @@ h2 {
 
 h4 {
     font-weight: 200;
-    font-family:$fuenteh4 !important;
+    font-family: $fuenteh4 !important;
     /* Aquí se corrige la sintaxis */
     font-style: normal;
 }
+
+
