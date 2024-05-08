@@ -115,7 +115,8 @@ footer {
 
 /* Biografia */
 #Imagen-Biografia01,
-#Imagen-Biografia02 {
+#Imagen-Biografia02,
+#Imagen-Biografia03 {
   max-width: 50%;
   /* Establece el ancho máximo al 100% del contenedor padre */
   height: auto;
@@ -136,7 +137,7 @@ footer {
   background-color: #f9f9f9; }
 
 .fondocontrataciones {
-  background-image: url("../Resources/img/fondo-contrataciones.jpg");
+  background-image: url(/resources/img/fondo-contrataciones.jpg);
   /* Especifica la ruta de la imagen que deseas utilizar como fondo */
   background-size: cover;
   /* Ajusta la imagen para que cubra todo el área del elemento */
