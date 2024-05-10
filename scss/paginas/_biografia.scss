@@ -1,15 +1,15 @@
 /* Biografia */
-#Imagen-Biografia01,
-#Imagen-Biografia02,
-#Imagen-Biografia03
- {
-    max-width: 50%;
-    /* Establece el ancho máximo al 100% del contenedor padre */
-    height: auto;
-    /* Mantiene la proporción de aspecto */
-    display: block;
-    /* Hace que la imagen sea un bloque para centrarla horizontalmente */
-    margin: auto;
-    /* Centra la imagen horizontalmente */
+    #Imagen-Biografia01,
+    #Imagen-Biografia02,
+    #Imagen-Biografia03
+    {
+        max-width: 50%;
+        /* Establece el ancho máximo al 100% del contenedor padre */
+        height: auto;
+        /* Mantiene la proporción de aspecto */
+        display: block;
+        /* Hace que la imagen sea un bloque para centrarla horizontalmente */
+        margin: auto;
+        /* Centra la imagen horizontalmente */
 
-}
+    }
