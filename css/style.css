@@ -111,6 +111,13 @@ footer {
   margin-top: 20px;
   /* Ajusta el margen superior según sea necesario */ }
 
+.parrafoindex {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
 /* Biografia */
 #Imagen-Biografia01,
 #Imagen-Biografia02,
