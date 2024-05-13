@@ -109,7 +109,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  /* Ajusta el margen superior según sea necesario */ }
+  margin-bottom: 20px; }
 
 .parrafoindex {
   text-align: center;
@@ -117,6 +117,20 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100%; }
+
+.animate__bounceIn {
+  -webkit-animation-duration: auto;
+  animation-duration: .75s;
+  -webkit-animation-duration: calc(var(--animate-duration)* 0.75);
+  animation-duration: calc(var(--animate-duration)* 0.75);
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 15s;
+  /* Repetir cada 15 segundos */
+  animation-delay: 15s;
+  /* Repetir cada 15 segundos */ }
 
 /* Biografia */
 #Imagen-Biografia01,
