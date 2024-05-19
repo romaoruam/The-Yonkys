@@ -8,14 +8,16 @@
    
 }
 // parrafo del index
-.parrafoindex{
-    text-align: center;
-    display: flex;
+.parrafoindex {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  max-width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 // animacion index
 .animate__bounceIn {
