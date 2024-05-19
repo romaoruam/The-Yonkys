@@ -193,7 +193,7 @@ footer {
   #Imagen-Biografia01,
   #Imagen-Biografia02,
   #Imagen-Biografia03 {
-    max-width: 90%;
+    max-width: 100%;
     /* Establece el ancho máximo al 100% del contenedor padre */ } }
 
 /* Tablet */
@@ -201,7 +201,7 @@ footer {
   #Imagen-Biografia01,
   #Imagen-Biografia02,
   #Imagen-Biografia03 {
-    max-width: 90%;
+    max-width: 100%;
     /* Establece el ancho máximo al 100% del contenedor padre */ } }
 
 /* Estilos para el formulario */
