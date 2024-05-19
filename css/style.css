@@ -55,12 +55,23 @@ h4 {
   /* Aquí se corrige la sintaxis */
   font-style: normal; }
 
+.formatoparrafogeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
 /* Estilos del menú */
 .navbar {
   display: flex;
   text-align: center;
   font-family: "Six Caps", Impact, "Arial Narrow Bold", sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   flex-direction: column;
   background-color: #c6c6c6 !important;
   border-radius: 20px;
@@ -110,14 +121,14 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 .parrafoindex {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   max-width: 790px;
   margin-left: auto;
   margin-right: auto;
@@ -152,6 +163,17 @@ footer {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 10px; }
+
+.tuentrada {
+  display: flex;
+  justify-content: center; }
+
+.tuentradaimg {
+  width: 150px;
+  border-radius: 50%;
+  /* Esto hace que la imagen sea redonda */
+  overflow: hidden;
+  /* Esto asegura que la imagen no se desborde del borde redondeado */ }
 
 /* Biografia */
 #Imagen-Biografia01,
@@ -257,7 +279,8 @@ input[type="submit"]:hover {
   grid-template-columns: repeat(2, 1fr);
   /* Dos columnas con igual ancho */
   gap: 20px;
-  /* Espacio entre las celdas */ }
+  /* Espacio entre las celdas */
+  margin-top: 20px; }
 
 .integrante {
   border: 1px solid #ccc;
