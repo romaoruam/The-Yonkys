@@ -276,7 +276,7 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column; }
   .playlist {
-    width: 100%; } }
+    width: auto; } }
 
 /* Tablet */
 @media (max-width: 768px) and (max-height: 1000px) {
@@ -287,7 +287,7 @@ input[type="submit"]:hover {
     align-content: center;
     flex-wrap: wrap; }
   .playlist {
-    width: 100%; } }
+    width: auto; } }
 
 /* Estilo de integrantes e imagenes + GRID */
 .Integrantes {
